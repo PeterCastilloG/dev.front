@@ -19,7 +19,7 @@ btn.addEventListener("click", async () => {
 });
 
 const post = async (email, pass) => {
-  return await fetch("http://localhost:3000/form", {
+  return await fetch("http://www.peter.com/api/form", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
